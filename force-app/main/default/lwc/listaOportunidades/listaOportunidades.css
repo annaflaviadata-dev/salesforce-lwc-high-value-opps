@@ -1,0 +1,24 @@
+.opp-card {
+    border: 1px solid #dddbda;
+    border-left: 5px solid #0070d2; /* Uma borda azul estilosa à esquerda */
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    transition: transform 0.2s;
+}
+
+.opp-card:hover {
+    transform: scale(1.02);
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.opp-name {
+    font-weight: bold;
+    color: #0176d3;
+    margin-bottom: 4px;
+}
+
+.opp-amount {
+    font-size: 1.1rem;
+    color: #2e844a; /* Verde para o valor financeiro */
+}

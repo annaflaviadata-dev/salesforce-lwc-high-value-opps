@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="Oportunidades de Alto Valor" icon-name="standard:opportunity">
+        <template if:true={opportunities.data}>
+            <div class="slds-m-around_medium">
+                <template for:each={opportunities.data} for:item="opp">
+                    <div key={opp.Id} class="opp-card slds-p-around_small slds-m-bottom_small">
+                        <p class="opp-name">{opp.Name}</p>
+                        <lightning-formatted-number 
+                            value={opp.Amount} 
+                            format-style="currency" 
+                            currency-code="BRL"
+                            class="opp-amount">
+                        </lightning-formatted-number>
+                    </div>
+                </template>
+            </div>
+        </template>
+        
+        <template if:true={opportunities.error}>
+            <p class="slds-text-color_error slds-p-around_medium">
+                Erro ao carregar oportunidades.
+            </p>
+        </template>
+    </lightning-card>
+</template>
