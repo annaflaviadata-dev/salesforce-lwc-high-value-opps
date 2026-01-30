@@ -9,9 +9,9 @@ Componente Lightning Web Component desenvolvido para exibir oportunidades com va
 
 ## 🧠 Desafios Superados (Aprendizado Técnico)
 Durante este projeto, superei obstáculos críticos de desenvolvimento em Salesforce:
-1. **Segurança e Permissões:** Resolvi o erro de `Insufficient permissions` ajustando as atribuições de página (Assignments) e o acesso a campos (FLS).
-2. **Metadados XML:** Corrigi erros de parsing no `js-meta.xml` garantindo a exposição correta do componente.
-3. **Gerenciamento de Cache:** Configurei as Session Settings para garantir que as atualizações de código refletissem instantaneamente no navegador.
+1. **Segurança e Permissões:** "Resolvi o erro de `Insufficient permissions` ajustando as atribuições de página (Assignments) e o Field-Level Security (FLS)".
+2. **Metadados XML:** "Corrigi erros de parsing no `js-meta.xml` garantindo a exposição correta do componente".
+3. **Gerenciamento de Cache:** "Configurei as Session Settings para garantir que as atualizações de código refletissem instantaneamente no navegador".
 
 ## 📦 Tecnologias
 - Lightning Web Components (LWC)
