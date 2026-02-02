@@ -1,7 +1,8 @@
 # 🚀 Oportunidades de Alto Valor (Salesforce)
 
+![photo04](https://github.com/user-attachments/assets/49751155-f5df-46d2-a96b-13e79d411045)
 
-![photo03](https://github.com/user-attachments/assets/29b15487-ef23-4694-a244-62fe539ac644)
+
 
 Lightning Web Component desenvolvido para exibir oportunidades com valor superior a R$ 100.000,00, integrando classes Apex e estilização personalizada com SLDS e CSS.
 
